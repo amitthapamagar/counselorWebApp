@@ -10,11 +10,6 @@ A Node.js + Express web application for managing high school counselors — list
 # 1. Install dependencies
 npm install
 
-# 2. Create your environment file
-cp .env.example .env
-# Edit .env with your SMTP credentials
-
-# 3. Start the server
 npm start          # production
 npm run dev        # development (auto-restart via nodemon)
 ```
