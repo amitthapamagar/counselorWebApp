@@ -2,6 +2,7 @@
  * REST routes for counselors.
  *
  *  GET    /api/counselors          — list (supports ?search=)
+ *  GET    /api/counselors/download — download all as CSV
  *  GET    /api/counselors/:id      — get one
  *  POST   /api/counselors          — create
  *  PATCH  /api/counselors/:id      — update (partial)
@@ -17,6 +18,29 @@ router.get('/', (req, res) => {
   const { search } = req.query;
   const list = store.getAll({ search });
   res.json({ count: list.length, data: list });
+});
+
+// Download all counselors as CSV
+router.get('/download', (req, res) => {
+  const list = store.getAll();
+
+  const escape = val => {
+    const str = (val === undefined || val === null) ? '' : String(val);
+    // Wrap in quotes if value contains a comma, quote, or newline
+    return str.includes(',') || str.includes('"') || str.includes('\n')
+      ? `"${str.replace(/"/g, '""')}"`
+      : str;
+  };
+
+  const headers = ['id', 'name', 'university', 'phone', 'email', 'image'];
+  const rows = list.map(c => headers.map(h => escape(c[h])).join(','));
+  const csv  = [headers.join(','), ...rows].join('\r\n');
+
+  const filename = `counselors_${new Date().toISOString().slice(0, 10)}.csv`;
+
+  res.setHeader('Content-Type', 'text/csv');
+  res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+  res.send(csv);
 });
 
 // Get one

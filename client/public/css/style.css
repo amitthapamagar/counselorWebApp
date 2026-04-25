@@ -21,6 +21,8 @@ main { max-width: 980px; margin: 0 auto; padding-bottom: 3rem; }
 .count { font-size: .8rem; color: #888; }
 .btn-add { padding: 8px 14px; background: #185FA5; color: #fff; border: none; border-radius: 8px; font-size: .85rem; cursor: pointer; }
 .btn-add:hover { background: #0C447C; }
+.btn-download { padding: 8px 14px; background: #fff; color: #185FA5; border: 1px solid #185FA5; border-radius: 8px; font-size: .85rem; cursor: pointer; }
+.btn-download:hover { background: #dce8f5; }
 
 /* Grid */
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 12px; }

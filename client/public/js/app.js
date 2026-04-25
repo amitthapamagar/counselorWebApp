@@ -39,6 +39,7 @@ function renderShell() {
             <input id="search-input" type="text" placeholder="Search by name or school…" />
           </div>
           <span class="count" id="count-badge"></span>
+          <button class="btn-download" id="btn-download">⬇ Download CSV</button>
           <button class="btn-add" id="btn-add">+ Add counselor</button>
         </div>
         <div class="grid" id="counselor-grid"></div>
@@ -123,6 +124,10 @@ function attachListeners() {
 
   document.getElementById('search-input').addEventListener('input', e => loadCounselors(e.target.value));
   document.getElementById('btn-add').addEventListener('click', openAddModal);
+  document.getElementById('btn-download').addEventListener('click', () => {
+    API.downloadCSV();
+    toast('Downloading CSV…');
+  });
 
   document.getElementById('btn-edit-cancel').addEventListener('click', closeEditModal);
   document.getElementById('btn-edit-save').addEventListener('click', saveEdit);

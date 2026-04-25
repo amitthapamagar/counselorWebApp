@@ -24,5 +24,15 @@ const API = (() => {
     updateCounselor: (id, data) => request('PATCH', `/counselors/${id}`, data),
     deleteCounselor: (id)     => request('DELETE', `/counselors/${id}`),
     sendEmail:       (payload) => request('POST', '/email/send', payload),
+
+    /** Triggers a CSV file download in the browser. */
+    downloadCSV() {
+      const a = document.createElement('a');
+      a.href = BASE + '/counselors/download';
+      a.download = '';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    },
   };
 })();
