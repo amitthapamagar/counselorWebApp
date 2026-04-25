@@ -17,11 +17,6 @@ node -v   # should print v18.x.x or higher
 npm -v    # should print 9.x.x or higher
 ```
 
-If you use **nvm** (Node Version Manager):
-```bash
-nvm install 20
-nvm use 20
-```
 
 ---
 
@@ -30,17 +25,14 @@ nvm use 20
 ```bash
 # 1. Clone the repo
 git clone <your-repo-url>
-cd counselor-app-clean
+cd counselorWebApp
 
 # 2. Install dependencies
 npm install
 
-# 3. Create your environment file
-cp .env.example .env
-# Open .env and fill in your SMTP credentials
 
-# 4. Start the server
-npm run dev     # development (auto-restart)
+# 3. Start the server
+npm run dev     # development 
 npm start       # production
 ```
 
@@ -113,16 +105,3 @@ counselor-app/
 
 ---
 
-## Troubleshooting
-
-**`npm: command not found`**
-- Make sure you installed Node.js from https://nodejs.org
-- Close and reopen your terminal after installing
-- If using nvm: run `nvm use 20` before `npm install`
-- On Windows: ensure `C:\Program Files\nodejs\` is in your system PATH
-
-**`Error: Cannot find module '...'`**
-- Run `npm install` — dependencies are not committed to the repo
-
-**Port already in use**
-- Change `PORT=3001` in your `.env` file

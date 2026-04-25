@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Ms. Teresa Kennison",
+    "email": "stkennison@atoka.org",
+    "phone": "+1 580-889-3368",
+    "university": "705-Atoka High School",
+    "image": "https://core-docs.s3.amazonaws.com/atoka_public_schools__ar/directory/2191884/small_28d39b54-3ac5-4b7f-8d5f-1e50c37ed99d.png"
+  },
+  {
+    "id": 2,
+    "name": "Ms. Leslie Manion",
+    "email": "lmanion@atoka.org",
+    "phone": "+1 580-324-4152",
+    "university": "705-Atoka High School",
+    "image": "https://core-docs.s3.amazonaws.com/atoka_public_schools__ar/directory/2192027/small_000fd8ef-251c-46b4-9657-8e298b9be500.png"
+  },
+  {
+    "id": 3,
+    "name": "Ms. Trisha Swift",
+    "email": "tswift@atoka.org",
+    "phone": "+1 580-889-3464",
+    "university": "705-Atoka High School",
+    "image": "https://core-docs.s3.amazonaws.com/atoka_public_schools__ar/directory/2191980/small_54410c53-2f36-431e-84fa-6b6382f587c7.png"
+  },
+  {
+    "id": 4,
+    "name": "Ms. Shanna Weber",
+    "email": "",
+    "phone": "+1 580-625-3444",
+    "university": "Beaver Public Schools",
+    "image": "https://core-docs.s3.amazonaws.com/beaver_public_schools_ar/directory/1458063/small_d2e0c6fb-b9bf-4016-b66d-27831912e34e.png"
+  },
+  {
+    "id": 5,
+    "name": "Mr. Brett Rorabaugh",
+    "email": "brorabaugh@turpinps.org",
+    "phone": "+1 580-778-3333",
+    "university": "Turpin Public School",
+    "image": "https://core-docs.s3.amazonaws.com/turpin_public_school_ar/directory/310341/small_a6c9c409-c074-4582-82b1-66f51aa3dede.png"
+  },
+  {
+    "id": 6,
+    "name": "Ms. Kelly Kane",
+    "email": "",
+    "phone": "",
+    "university": "Durant High School",
+    "image": "https://www.durantisd.org/uploaded/faculty/908089.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Ms. Shana Thiel",
+    "email": "",
+    "phone": "+1 405-262-5647",
+    "university": "Maple School District",
+    "image": "https://core-docs.s3.amazonaws.com/maple_school_district_ar/directory/1443733/small_8c9d313b-6dea-4fa5-97f1-d6c32e81d7d3.png"
+  }
+]
