@@ -248,22 +248,156 @@
   "university": "Gypsy Public School",
   "image": "https://cmsv2-assets.apptegy.net/uploads/23593/file/3053414/small_fee4142d-66b8-4312-80b0-fefd8c1a0ed9.png"
 },
-  {
-    "id": 32,
-    "name": "Rachel Matheney",
-    "email": "rmatheney@bristow.k12.ok.us",
-    "phone": "+1 918-367-2241",
-    "university": "Bristow Public School",
-    "image": "https://core-docs.s3.amazonaws.com/bristow_public_schools_ar/directory/42860592/small_b812a888-7cc3-4b25-a35b-c8d683847e56.png"
-  },
-  {
+{
+  "id": 32,
+  "name": "Rachel Matheney",
+  "email": "rmatheney@bristow.k12.ok.us",
+  "phone": "+1 918-367-2241",
+  "university": "Bristow Public School",
+  "image": "https://core-docs.s3.amazonaws.com/bristow_public_schools_ar/directory/42860592/small_b812a888-7cc3-4b25-a35b-c8d683847e56.png"
+},
+{
     "id": 33,
     "name": "Heather Butler",
     "email": "hbutler@bristow.k12.ok.us",
     "phone": "+1 918-367-2241",
     "university": "Bristow Public School",
     "image": "https://core-docs.s3.amazonaws.com/bristow_public_schools_ar/directory/912290/small_894fedfe-c462-4f09-8e83-0675aea5c82b.png"
+  },
+  {
+    "id": 34,
+    "name": "Charissa Byrne",
+    "email": "cbyrne@alex.k12.ok.us",
+    "phone": "+1 405-785-2264",
+    "university": "Alex High School",
+    "image": ""
+  },
+  {
+    "id": 35,
+    "name": "Lesli Costner",
+    "email": "lcostner@allenmustangs.org",
+    "phone": "+1 580-857-2417",
+    "university": "Allen High School",
+    "image": ""
+  },
+  {
+    "id": 36,
+    "name": "Sherry Holdge",
+    "email": "sholdge@apswarriors.com",
+    "phone": "+1 405-247-2486",
+    "university": "Anadarko High School",
+    "image": ""
+  },
+  {
+    "id": 37,
+    "name": "Lea Meason",
+    "email": "lmeason@apacheps.org",
+    "phone": "+1 580-588-3358",
+    "university": "Apache High School",
+    "image": ""
+  },
+  {
+    "id": 38,
+    "name": "Dwayne Forrester",
+    "email": "dforrester@asher.k12.ok.us",
+    "phone": "+1 405-784-2331",
+    "university": "Asher Public Schools",
+    "image": ""
+  },
+  {
+    "id": 39,
+    "name": "Laken Baker",
+    "email": "lbaker@binger-oney.k12.ok.us",
+    "phone": "",
+    "university": "Binger-Oney High School",
+    "image": ""
+  },
+{
+    "id": 40,
+    "name": "Lana Sanders",
+    "email": "lsanders@canadian.k12.ok.us",
+    "phone": "+1 918-339-2705",
+    "university": "Canadian Public Schools",
+    "image": ""
+  },
+  {
+    "id": 41,
+    "name": "Becky Worth",
+    "email": "Bworth@mid-del.net",
+    "phone": "+1 405-739-1726 ",
+    "university": "Carl Albert High School",
+    "image": ""
+  },
+  {
+    "id": 42,
+    "name": "Cristie Oliver",
+    "email": "coliver@chickasha.k12.ok.us",
+    "phone": "+1 405-222-6500",
+    "university": "Chickasha High School",
+    "image": ""
+  },
+  {
+    "id": 43,
+    "name": "Mandy Abel",
+    "email": "mandy.abel@cowetaps.org",
+    "phone": "+1 918-486-4474",
+    "university": "Coweta High School",
+    "image": ""
+  },
+  {
+    "id": 44,
+    "name": "Dana Watson",
+    "email": "dcwatson@mid-del.net",
+    "phone": "+1 405-677-5777",
+    "university": "Del City High School",
+    "image": ""
+  },
+  {
+    "id": 45,
+    "name": "Jimmy Martin",
+    "email": "jimmymartin@mooreschools.com",
+    "phone": "+1 405-735-4257",
+    "university": "Moore Public Schools",
+    "image": ""
+  },
+  {
+    "id": 46,
+    "name": "Jill Browning",
+    "email": "jobrowning@okcps.org",
+    "phone": "+1 405-587-8468",
+    "university": "EES - Extended Educational Seervices",
+    "image": ""
+  },
+  {
+    "id": 47,
+    "name": "Elizabeth Kinsey",
+    "email": "ekinsey@elrenops.org",
+    "phone": "+1 405-262-2212",
+    "university": "El Reno High School",
+    "image": ""
+  },
+  {
+    "id": 48,
+    "name": "Jane Taylor",
+    "email": "ejtaylor@okcps.org",
+    "phone": "+1 405-830-6295",
+    "university":"Emerson North Alternative",
+    "image": ""
+  },
+  {
+    "id": 49,
+    "name": "Tywanda Cox",
+    "email": "tcox@okcps.org",
+    "phone": "+1 405-587-7997",
+    "university": "Oklahoma City Public Schools",
+    "image": ""
+  },
+  {
+    "id": 50,
+    "name": "Katie Carnott",
+    "email": "kcarnott@elrenops.org",
+    "phone": "+1 405-808-6685",
+    "university": "Etta Dale High School",
+    "image": ""
   }
-
-
 ]
