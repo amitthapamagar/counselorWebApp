@@ -70,7 +70,6 @@
     "phone": "+1 ",
     "university": "Westville Public Schools",
     "image": "https://core-docs.s3.amazonaws.com/westville_public_schools_ar/directory/686136/small_b24a1959-a227-4d82-a150-6281f6392cfe.png"
-
   },
   {
     "id": 10,
@@ -103,119 +102,119 @@
     "phone": "",
     "university": "Timberlake School",
     "image": "https://core-docs.s3.amazonaws.com/timberlake_school_district_ar/directory/765879/small_570afb5c-a8ab-4b22-b1a6-597e5f771938.png"
- },
- {
+  },
+  {
     "id": 14,
     "name": "Leeann Morris",
     "email": "lmorris@balko.k12.ok.us",
     "phone": "+1 580-646-3385",
     "university": "Balko Public School",
     "image": "https://core-docs.s3.amazonaws.com/balko_independent_school_ar/directory/1473889/small_b3985242-9132-4f6c-9f20-490bff5caec0.png"
- },
- {
+  },
+  {
     "id": 15,
     "name": "Mrs. LaTisha Matlock",
     "email": "lmatlock@cyrilschools.org",
     "phone": "+1 580-464-2272",
     "university": "Cyril School",
     "image": "https://lh3.googleusercontent.com/sitesv/AA5AbUAls2mLVpngMxYIRf72M6kPInAGeQiwEia9abWcfbszK2tIMJlX-6bz8qrf9EiWMYi4OUuTxN_c7r8dO89iX1s7gtz8bV2v13la638_RmtqebGqnWF4EqrqitbFrMULWsz7ulslvd1vKPpHK5lWffAqTokRRPRCLXTI10qqckoJ2-0hHXq8gCblp9hTwpuMee_8Y5NEU_Uiefn0SbIk-2BTOd7YBN-BdX46nxo=w1280"
-},
-{
+  },
+  {
     "id": 16,
     "name": "Jessica Davis",
     "email": "jdavis@gracemont.k12.ok.us",
     "phone": "+1 405-966-2233",
     "university": "Gracemont Public Schools",
     "image": "https://core-docs.s3.amazonaws.com/gracemont_public_schools_ar/directory/40678293/small_4f9b76f8-6d0a-4f40-9dec-33f2b8a01b02.png"
-},
-{
-  "id": 17,
-  "name": "Hayden Logan",
-  "email": "hlogan@banner.k12.ok.us",
-  "phone": "",
-  "university": "Banner Public School",
-  "image": "https://core-docs.s3.amazonaws.com/banner_schools__ok_ar/directory/46388038/small_15637836-805d-4644-85c6-f55e96632104.png"
-},
-{
-  "id": 18,
-  "name": "Nicky Howell",
-  "email": "",
-  "phone": "+1 405-893-2497",
-  "university": "Calumet Public School",
-  "image": "https://core-docs.s3.amazonaws.com/calumet_public_schools_ar/directory/332794/small_d40790ce-b7a9-47b0-93c8-fa888197e9c7.png"
-},
-{
-  "id": 19,
-  "name": "Rhonda Rice",
-  "email": "rrice@kpscougars.org",
-  "phone": "+1 918-456-4501",
-  "university": "Keys Public School",
-  "image": "https://core-docs.s3.amazonaws.com/keys_school_district_6_ar/directory/47900777/small_1c54a353-9fb3-4d51-a3c8-326b388069e3.png"
-},
-{
-  "id": 20,
-  "name": "Rachel Buford",
-  "email": "rbuford@hulbertriders.net",
-  "phone": "",
-  "university": "Hulbert Public School",
-  "image": "https://core-docs.s3.amazonaws.com/hulbert_public_schools_ar/directory/288769575/small_1132dbeb-ce9e-49e8-ad6e-b8ff72e4259e.png"
-},
-{
-  "id": 21,
-  "name": "Ronnie Culie",
-  "email": "rculie@hulbertriders.net",
-  "phone": "",
-  "university": "Hulbert Public School",
-  "image": "https://core-docs.s3.amazonaws.com/hulbert_public_schools_ar/directory/20926591/small_6082e2cb-7690-4152-be17-c962bff190cb.png"
-},
-{
-  "id": 22,
-  "name": "Marcella Hofschulte",
-  "email": "mhofschulte@hulbertriders.net",
-  "phone": "",
-  "university": "Hulbert Public School",
-  "image": "https://core-docs.s3.amazonaws.com/hulbert_public_schools_ar/directory/185764672/small_9ce014b9-55ea-44d5-af9e-f515bea02ad0.png"
-},
-{
-  "id": 23,
-  "name": "Stefanie Rees",
-  "email": "srees2@normanps.org",
-  "phone": "",
-  "university": "Norman Public School",
-  "image": "https://cmsv2-assets.apptegy.net/uploads/21859/file/2945117/small_7fac0a9d-05d9-4b76-bdf9-5ccadea03380.png"
-},
-{
-  "id": 24,
-  "name": "Angie West",
-  "email": "awest@coalgateschools.org",
-  "phone": "+1 580-927-2351",
-  "university": "Coalgate High School",
-  "image": "https://core-docs.s3.amazonaws.com/coalgate_public_schools_ar/directory/962860/small_42d466f6-d06c-4691-9474-e60ad18d2423.png"
-},
-{
-  "id": 25,
-  "name": "Paula Mallow",
-  "email": "",
-  "phone": "+1 580-355-3801",
-  "university": "Geronimo Public School",
-  "image": "https://core-docs.s3.amazonaws.com/geronimo_public_schools_ar/directory/1308147/small_355d345b-821d-484f-99e9-5bf64c9794b3.png"
-},
-{
-  "id": 26,
-  "name": "Tamie Barrett",
-  "email": "tbarrett@chatty.k12.ok.us",
-  "phone": "+1 580-678-5500",
-  "university": "Chattanooga Public School",
-  "image": "https://core-docs.s3.amazonaws.com/chattanooga_public_school_ar/directory/46205541/small_6972eed6-7224-4126-ad1b-bfac239d3450.png"
-},
-{
-  "id": 27,
-  "name": "Rylee Paul",
-  "email": "",
-  "phone": "+1 580-342-6230",
-  "university": "Temple Public School",
-  "image": "https://core-docs.s3.amazonaws.com/temple_public_schools_ar/directory/1681344/small_27774866-8b3d-47ca-85b5-818f935546d3.png"
-},
+  },
+  {
+    "id": 17,
+    "name": "Hayden Logan",
+    "email": "hlogan@banner.k12.ok.us",
+    "phone": "",
+    "university": "Banner Public School",
+    "image": "https://core-docs.s3.amazonaws.com/banner_schools__ok_ar/directory/46388038/small_15637836-805d-4644-85c6-f55e96632104.png"
+  },
+  {
+    "id": 18,
+    "name": "Nicky Howell",
+    "email": "",
+    "phone": "+1 405-893-2497",
+    "university": "Calumet Public School",
+    "image": "https://core-docs.s3.amazonaws.com/calumet_public_schools_ar/directory/332794/small_d40790ce-b7a9-47b0-93c8-fa888197e9c7.png"
+  },
+  {
+    "id": 19,
+    "name": "Rhonda Rice",
+    "email": "rrice@kpscougars.org",
+    "phone": "+1 918-456-4501",
+    "university": "Keys Public School",
+    "image": "https://core-docs.s3.amazonaws.com/keys_school_district_6_ar/directory/47900777/small_1c54a353-9fb3-4d51-a3c8-326b388069e3.png"
+  },
+  {
+    "id": 20,
+    "name": "Rachel Buford",
+    "email": "rbuford@hulbertriders.net",
+    "phone": "",
+    "university": "Hulbert Public School",
+    "image": "https://core-docs.s3.amazonaws.com/hulbert_public_schools_ar/directory/288769575/small_1132dbeb-ce9e-49e8-ad6e-b8ff72e4259e.png"
+  },
+  {
+    "id": 21,
+    "name": "Ronnie Culie",
+    "email": "rculie@hulbertriders.net",
+    "phone": "",
+    "university": "Hulbert Public School",
+    "image": "https://core-docs.s3.amazonaws.com/hulbert_public_schools_ar/directory/20926591/small_6082e2cb-7690-4152-be17-c962bff190cb.png"
+  },
+  {
+    "id": 22,
+    "name": "Marcella Hofschulte",
+    "email": "mhofschulte@hulbertriders.net",
+    "phone": "",
+    "university": "Hulbert Public School",
+    "image": "https://core-docs.s3.amazonaws.com/hulbert_public_schools_ar/directory/185764672/small_9ce014b9-55ea-44d5-af9e-f515bea02ad0.png"
+  },
+  {
+    "id": 23,
+    "name": "Stefanie Rees",
+    "email": "srees2@normanps.org",
+    "phone": "",
+    "university": "Norman Public School",
+    "image": "https://cmsv2-assets.apptegy.net/uploads/21859/file/2945117/small_7fac0a9d-05d9-4b76-bdf9-5ccadea03380.png"
+  },
+  {
+    "id": 24,
+    "name": "Angie West",
+    "email": "awest@coalgateschools.org",
+    "phone": "+1 580-927-2351",
+    "university": "Coalgate High School",
+    "image": "https://core-docs.s3.amazonaws.com/coalgate_public_schools_ar/directory/962860/small_42d466f6-d06c-4691-9474-e60ad18d2423.png"
+  },
+  {
+    "id": 25,
+    "name": "Paula Mallow",
+    "email": "",
+    "phone": "+1 580-355-3801",
+    "university": "Geronimo Public School",
+    "image": "https://core-docs.s3.amazonaws.com/geronimo_public_schools_ar/directory/1308147/small_355d345b-821d-484f-99e9-5bf64c9794b3.png"
+  },
+  {
+    "id": 26,
+    "name": "Tamie Barrett",
+    "email": "tbarrett@chatty.k12.ok.us",
+    "phone": "+1 580-678-5500",
+    "university": "Chattanooga Public School",
+    "image": "https://core-docs.s3.amazonaws.com/chattanooga_public_school_ar/directory/46205541/small_6972eed6-7224-4126-ad1b-bfac239d3450.png"
+  },
+  {
+    "id": 27,
+    "name": "Rylee Paul",
+    "email": "",
+    "phone": "+1 580-342-6230",
+    "university": "Temple Public School",
+    "image": "https://core-docs.s3.amazonaws.com/temple_public_schools_ar/directory/1681344/small_27774866-8b3d-47ca-85b5-818f935546d3.png"
+  },
   {
     "id": 28,
     "name": "Aadel Bussinger",
@@ -233,30 +232,30 @@
     "image": "https://cmsv2-assets.apptegy.net/uploads/25339/file/3450141/9f642463-ec55-4c13-b39a-03e80d0ed360.png"
   },
   {
-  "id": 30,
-  "name": "April Miller",
-  "email": "",
-  "phone": "+1 918-788-3129",
-  "university": "Welch Public School",
-  "image": "https://cmsv2-assets.apptegy.net/uploads/14080/file/3767617/e78672c6-2f98-4e88-bf54-bad5ceda4bc5.png"
-},
-{
-  "id": 31,
-  "name": "Whitney Clark",
-  "email": "wwhisnant@gypsy.k12.ok.us",
-  "phone": "+1 918-324-5365",
-  "university": "Gypsy Public School",
-  "image": "https://cmsv2-assets.apptegy.net/uploads/23593/file/3053414/small_fee4142d-66b8-4312-80b0-fefd8c1a0ed9.png"
-},
-{
-  "id": 32,
-  "name": "Rachel Matheney",
-  "email": "rmatheney@bristow.k12.ok.us",
-  "phone": "+1 918-367-2241",
-  "university": "Bristow Public School",
-  "image": "https://core-docs.s3.amazonaws.com/bristow_public_schools_ar/directory/42860592/small_b812a888-7cc3-4b25-a35b-c8d683847e56.png"
-},
-{
+    "id": 30,
+    "name": "April Miller",
+    "email": "",
+    "phone": "+1 918-788-3129",
+    "university": "Welch Public School",
+    "image": "https://cmsv2-assets.apptegy.net/uploads/14080/file/3767617/e78672c6-2f98-4e88-bf54-bad5ceda4bc5.png"
+  },
+  {
+    "id": 31,
+    "name": "Whitney Clark",
+    "email": "wwhisnant@gypsy.k12.ok.us",
+    "phone": "+1 918-324-5365",
+    "university": "Gypsy Public School",
+    "image": "https://cmsv2-assets.apptegy.net/uploads/23593/file/3053414/small_fee4142d-66b8-4312-80b0-fefd8c1a0ed9.png"
+  },
+  {
+    "id": 32,
+    "name": "Rachel Matheney",
+    "email": "rmatheney@bristow.k12.ok.us",
+    "phone": "+1 918-367-2241",
+    "university": "Bristow Public School",
+    "image": "https://core-docs.s3.amazonaws.com/bristow_public_schools_ar/directory/42860592/small_b812a888-7cc3-4b25-a35b-c8d683847e56.png"
+  },
+  {
     "id": 33,
     "name": "Heather Butler",
     "email": "hbutler@bristow.k12.ok.us",
@@ -312,7 +311,7 @@
     "university": "Binger-Oney High School",
     "image": ""
   },
-{
+  {
     "id": 40,
     "name": "Lana Sanders",
     "email": "lsanders@canadian.k12.ok.us",
@@ -381,7 +380,7 @@
     "name": "Jane Taylor",
     "email": "ejtaylor@okcps.org",
     "phone": "+1 405-830-6295",
-    "university":"Emerson North Alternative",
+    "university": "Emerson North Alternative",
     "image": ""
   },
   {
@@ -826,14 +825,6 @@
   },
   {
     "id": 104,
-    "name": "Office",
-    "email": "bwhitmire@wpss.k12.ok.us",
-    "phone": "+1 580-937-4288",
-    "university": "Wapanucka",
-    "image": ""
-  },
-  {
-    "id": 105,
     "name": "Risa Demeter",
     "email": "rdemeter@wps-isd.com",
     "phone": "+1 405-288-2354",
@@ -841,7 +832,7 @@
     "image": ""
   },
   {
-    "id": 106,
+    "id": 105,
     "name": "Amanda Garner",
     "email": "agarner@webbersfalls.k12.ok.us",
     "phone": "+1 918-464-2334",
@@ -849,7 +840,7 @@
     "image": ""
   },
   {
-    "id": 107,
+    "id": 106,
     "name": "Sharee Ferguson",
     "email": "shareeferguson@mooreschools.com",
     "phone": "+1 405-735-4904",
@@ -857,11 +848,307 @@
     "image": ""
   },
   {
-    "id": 108,
+    "id": 107,
     "name": "Kathy Fausett",
     "email": "kfausett@wyandotte.k12.ok.us",
     "phone": "+1 918-678-2222",
     "university": "Wyandotte High School",
+    "image": ""
+  },
+  {
+    "id": 108,
+    "name": "Tina Mays",
+    "email": "tinamays@dcsok.org",
+    "phone": "+1 405-348-5720",
+    "university": "Deer Creek High School",
+    "image": ""
+  },
+  {
+    "id": 109,
+    "name": "Gracie Guillemette",
+    "email": "gracieguillemette@dcsok.org",
+    "phone": "+1 405-348-5720",
+    "university": "Deer Creek High School",
+    "image": ""
+  },
+  {
+    "id": 110,
+    "name": "Michael Elizondo",
+    "email": "michaelelizondo@dcsok.org",
+    "phone": "+1 405-348-5720",
+    "university": "Deer Creek High School",
+    "image": ""
+  },
+  {
+    "id": 111,
+    "name": "Tony Dix",
+    "email": "tonydix@dcsok.org",
+    "phone": "+1 405-348-5720",
+    "university": "Deer Creek High School",
+    "image": ""
+  },
+  {
+    "id": 112,
+    "name": "Ericka VanCleave",
+    "email": "erickavancleave@dcsok.org",
+    "phone": "+1 405-348-5720",
+    "university": "Deer Creek High School",
+    "image": ""
+  },
+  {
+    "id": 113,
+    "name": "Josh Wolfe",
+    "email": "wolfejw@bps-ok.org",
+    "phone": "+1 918-336-3311",
+    "university": "Bartlesville High School",
+    "image": ""
+  },
+  {
+    "id": 114,
+    "name": "Eric Harp",
+    "email": "harpel@bps-ok.org",
+    "phone": "+1 918-336-3311",
+    "university": "Bartlesville High School",
+    "image": ""
+  },
+  {
+    "id": 115,
+    "name": "Ashley Daniels",
+    "email": "danielsal@bps-ok.org",
+    "phone": "+1 918-336-3311",
+    "university": "Bartlesville High School",
+    "image": ""
+  },
+  {
+    "id": 116,
+    "name": "Jen May",
+    "email": "mayja@bps-ok.org",
+    "phone": "+1 918-336-3311",
+    "university": "Bartlesville High School",
+    "image": ""
+  },
+  {
+    "id": 117,
+    "name": "Stephanie Dorton",
+    "email": "sdorton@yukonps.com",
+    "phone": "+1 405-354-8580",
+    "university": "Yukon High School",
+    "image": ""
+  },
+  {
+    "id": 118,
+    "name": "Savanah Dirickson",
+    "email": "sdirickson@yukonps.com",
+    "phone": "+1 405-354-8580",
+    "university": "Yukon High School",
+    "image": ""
+  },
+  {
+    "id": 119,
+    "name": "Jamie Kale",
+    "email": "jkale@yukonps.com",
+    "phone": "+1 405-354-8580",
+    "university": "Yukon High School",
+    "image": ""
+  },
+  {
+    "id": 120,
+    "name": "Danielle Benefiel",
+    "email": "dbenefiel@yukonps.com",
+    "phone": "+1 405-354-8580",
+    "university": "Yukon High School",
+    "image": ""
+  },
+  {
+    "id": 121,
+    "name": "Emilie Shannon",
+    "email": "eshannon@yukonps.com",
+    "phone": "+1 405-354-8580",
+    "university": "Yukon High School",
+    "image": ""
+  },
+  {
+    "id": 122,
+    "name": "Emily Summers",
+    "email": "esummers@newcastle.k12.ok.us",
+    "phone": "+1 405-387-4304",
+    "university": "Newcastle High School",
+    "image": ""
+  },
+  {
+    "id": 123,
+    "name": "Abby Hall",
+    "email": "ahall@newcastle.k12.ok.us",
+    "phone": "+1 405-387-4304",
+    "university": "Newcastle High School",
+    "image": ""
+  },
+  {
+    "id": 124,
+    "name": "Anna Farrow",
+    "email": "afarrow@baschools.org",
+    "phone": "+1 918-259-4723",
+    "university": "Broken Arrow High School",
+    "image": ""
+  },
+  {
+    "id": 125,
+    "name": "Gina Giddens",
+    "email": "ggiddens@baschools.org",
+    "phone": "+1 918-259-4751",
+    "university": "Broken Arrow High School",
+    "image": ""
+  },
+  {
+    "id": 126,
+    "name": "Marla Stubblefield",
+    "email": "mstubblefield@baschools.org",
+    "phone": "+1 918-259-4726",
+    "university": "Broken Arrow High School",
+    "image": ""
+  },
+  {
+    "id": 127,
+    "name": "Tara Chase",
+    "email": "tchase@edmondschools.net",
+    "phone": "+1 405-340-2875",
+    "university": "Edmond North High School",
+    "image": ""
+  },
+  {
+    "id": 128,
+    "name": "Teranne Williams",
+    "email": "twilliams@edmondschools.net",
+    "phone": "+1 405-340-2875",
+    "university": "Edmond North High School",
+    "image": ""
+  },
+  {
+    "id": 129,
+    "name": "Heather Templeton",
+    "email": "htempleton@edmondschools.net",
+    "phone": "+1 405-340-2875",
+    "university": "Edmond North High School",
+    "image": ""
+  },
+  {
+    "id": 130,
+    "name": "Ashton Roberts",
+    "email": "aroberts2@hilldaleps.org",
+    "phone": "+1 918-682-6725",
+    "university": "Hilldale High School",
+    "image": ""
+  },
+  {
+    "id": 131,
+    "name": "Marla Walkup",
+    "email": "mwalkup@hilldaleps.org",
+    "phone": "+1 918-682-6725",
+    "university": "Hilldale High School",
+    "image": ""
+  },
+  {
+    "id": 132,
+    "name": "Christon Cummings",
+    "email": "christon.cummings@chandlerlions.org",
+    "phone": "+1 405-258-0397",
+    "university": "Chandler High School",
+    "image": ""
+  },
+  {
+    "id": 133,
+    "name": "Brandi Ingram",
+    "email": "bingram@wynnewood.k12.ok.us",
+    "phone": "+1 405-665-1104",
+    "university": "Wynnewood High School",
+    "image": ""
+  },
+  {
+    "id": 134,
+    "name": "C. Potter",
+    "email": "cpotter@stratford.k12.ok.us",
+    "phone": "+1 580-759-2382",
+    "university": "Stratford High School",
+    "image": ""
+  },
+  {
+    "id": 135,
+    "name": "Bre Hardemon",
+    "email": "bhardemon@vpsd.org",
+    "phone": "+1 580-933-7232",
+    "university": "Valliant HS",
+    "image": ""
+  },
+  {
+    "id": 136,
+    "name": "Risa Demeter",
+    "email": "rdemeter@wps-isd.com",
+    "phone": "+1 405-288-2354",
+    "university": "Washington High School",
+    "image": ""
+  },
+  {
+    "id": 137,
+    "name": "Sharee Ferguson",
+    "email": "shareeferguson@mooreschools.com",
+    "phone": "+1 405-735-4904",
+    "university": "Westmoore High School",
+    "image": ""
+  },
+  {
+    "id": 138,
+    "name": "Kathy Fausett",
+    "email": "kfausett@wyandotte.k12.ok.us",
+    "phone": "+1 918-678-2222",
+    "university": "Wyandotte High School",
+    "image": ""
+  },
+  {
+    "id": 139,
+    "name": "Wendy Norton",
+    "email": "-",
+    "phone": "+1 580-332-2092",
+    "university": "Latta High School",
+    "image": ""
+  },
+  {
+    "id": 140,
+    "name": "Christon Cummings",
+    "email": "christon.cummings@chandlerlions.org",
+    "phone": "+1 405-258-0397",
+    "university": "Chandler High School",
+    "image": ""
+  },
+  {
+    "id": 141,
+    "name": "Brandi Ingram",
+    "email": "bingram@wynnewood.k12.ok.us",
+    "phone": "+1 405-665-1104",
+    "university": "Wynnewood High School",
+    "image": ""
+  },
+  {
+    "id": 142,
+    "name": "Linsy Ingmire",
+    "email": "ingmirel@bethel.k12.ok.us",
+    "phone": "+1 405-273-3633",
+    "university": "Bethel High School",
+    "image": ""
+  },
+  {
+    "id": 143,
+    "name": "Stephanie Dorton",
+    "email": "-",
+    "phone": "+1 405-354-8580",
+    "university": "Yukon High School",
+    "image": ""
+  },
+  {
+    "id": 144,
+    "name": "Hillary Moore",
+    "email": "hmoore@collinsville.k12.ok.us",
+    "phone": "+1 918-371-3382",
+    "university": "Collinsville High School",
     "image": ""
   }
 ]
