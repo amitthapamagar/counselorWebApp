@@ -1,73 +1,85 @@
 /**
- * REST routes for counselors.
- *
- *  GET    /api/counselors          — list (supports ?search=)
- *  GET    /api/counselors/download — download all as CSV
- *  GET    /api/counselors/:id      — get one
- *  POST   /api/counselors          — create
- *  PATCH  /api/counselors/:id      — update (partial)
- *  DELETE /api/counselors/:id      — delete
+ * REST routes for counselors — fully async for MongoDB.
  */
 const express           = require('express');
 const router            = express.Router();
-const store             = require('../utils/dataStore');
-const validateCounselor = require('../middleware/validateCounselor');
+const store             = require('../../counselor-app-Database/counselor-app-vercel/utils/dataStore');
+const validateCounselor = require('../../counselor-app-Database/counselor-app-vercel/middleware/validateCounselor');
 
 // List / search
-router.get('/', (req, res) => {
-  const { search } = req.query;
-  const list = store.getAll({ search });
-  res.json({ count: list.length, data: list });
+router.get('/', async (req, res) => {
+  try {
+    const list = await store.getAll({ search: req.query.search });
+    res.json({ count: list.length, data: list });
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to fetch counselors' });
+  }
 });
 
-// Download all counselors as CSV
-router.get('/download', (req, res) => {
-  const list = store.getAll();
-
-  const escape = val => {
-    const str = (val === undefined || val === null) ? '' : String(val);
-    // Wrap in quotes if value contains a comma, quote, or newline
-    return str.includes(',') || str.includes('"') || str.includes('\n')
-      ? `"${str.replace(/"/g, '""')}"`
-      : str;
-  };
-
-  const headers = ['id', 'name', 'university', 'phone', 'email', 'image'];
-  const rows = list.map(c => headers.map(h => escape(c[h])).join(','));
-  const csv  = [headers.join(','), ...rows].join('\r\n');
-
-  const filename = `counselors_${new Date().toISOString().slice(0, 10)}.csv`;
-
-  res.setHeader('Content-Type', 'text/csv');
-  res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
-  res.send(csv);
+// Download CSV
+router.get('/download', async (req, res) => {
+  try {
+    const list = await store.getAll();
+    const escape = val => {
+      const str = (val == null) ? '' : String(val);
+      return str.includes(',') || str.includes('"') || str.includes('\n')
+        ? `"${str.replace(/"/g, '""')}"` : str;
+    };
+    const headers = ['id', 'name', 'university', 'phone', 'email', 'image'];
+    const csv = [
+      headers.join(','),
+      ...list.map(c => headers.map(h => escape(c[h])).join(','))
+    ].join('\r\n');
+    res.setHeader('Content-Type', 'text/csv');
+    res.setHeader('Content-Disposition',
+      `attachment; filename="counselors_${new Date().toISOString().slice(0,10)}.csv"`);
+    res.send(csv);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to generate CSV' });
+  }
 });
 
 // Get one
-router.get('/:id', (req, res) => {
-  const counselor = store.getById(req.params.id);
-  if (!counselor) return res.status(404).json({ error: 'Counselor not found' });
-  res.json(counselor);
+router.get('/:id', async (req, res) => {
+  try {
+    const counselor = await store.getById(req.params.id);
+    if (!counselor) return res.status(404).json({ error: 'Counselor not found' });
+    res.json(counselor);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to fetch counselor' });
+  }
 });
 
 // Create
-router.post('/', validateCounselor(true), (req, res) => {
-  const created = store.create(req.body);
-  res.status(201).json(created);
+router.post('/', validateCounselor(true), async (req, res) => {
+  try {
+    const created = await store.create(req.body);
+    res.status(201).json(created);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to create counselor' });
+  }
 });
 
 // Update (partial)
-router.patch('/:id', validateCounselor(false), (req, res) => {
-  const updated = store.update(req.params.id, req.body);
-  if (!updated) return res.status(404).json({ error: 'Counselor not found' });
-  res.json(updated);
+router.patch('/:id', validateCounselor(false), async (req, res) => {
+  try {
+    const updated = await store.update(req.params.id, req.body);
+    if (!updated) return res.status(404).json({ error: 'Counselor not found' });
+    res.json(updated);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to update counselor' });
+  }
 });
 
 // Delete
-router.delete('/:id', (req, res) => {
-  const deleted = store.delete(req.params.id);
-  if (!deleted) return res.status(404).json({ error: 'Counselor not found' });
-  res.json({ message: 'Counselor deleted successfully' });
+router.delete('/:id', async (req, res) => {
+  try {
+    const deleted = await store.delete(req.params.id);
+    if (!deleted) return res.status(404).json({ error: 'Counselor not found' });
+    res.json({ message: 'Counselor deleted successfully' });
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to delete counselor' });
+  }
 });
 
 module.exports = router;

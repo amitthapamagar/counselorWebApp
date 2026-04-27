@@ -7,7 +7,7 @@
  */
 const express = require('express');
 const router  = express.Router();
-const mailer  = require('../utils/mailer');
+const mailer  = require('../../counselor-app-Database/counselor-app-vercel/utils/mailer');
 
 router.post('/send', async (req, res) => {
   const { to, subject, text, html } = req.body;

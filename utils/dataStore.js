@@ -1,84 +1,78 @@
 /**
- * Simple JSON-file-backed data store.
- * Reads from / writes to data/counselors.json.
- * Swap this module for a real DB adapter (e.g. Mongoose, pg) without
- * touching any route handlers.
+ * utils/dataStore.js  — MongoDB edition
+ *
+ * Exact same public API as the original JSON-file version.
+ * Routes and middleware require zero changes.
+ *
+ *   store.getAll({ search })
+ *   store.getById(id)
+ *   store.create(fields)
+ *   store.update(id, fields)
+ *   store.delete(id)
  */
-const fs   = require('fs');
-const path = require('path');
-const { v4: uuidv4 } = require('uuid');
-
-const FILE = path.join(__dirname, '..', 'data', 'counselors.json');
-
-function readAll() {
-  const raw = fs.readFileSync(FILE, 'utf8');
-  return JSON.parse(raw);
-}
-
-function writeAll(data) {
-  fs.writeFileSync(FILE, JSON.stringify(data, null, 2), 'utf8');
-}
+const connectDB = require('./db');
+const Counselor = require('../models/Counselor');
 
 const store = {
-  /** Return all counselors, optionally filtered by name or university. */
-  getAll({ search } = {}) {
-    let list = readAll();
+
+  async getAll({ search } = {}) {
+    await connectDB();
+    const query = {};
     if (search) {
-      const q = search.toLowerCase();
-      list = list.filter(
-        c =>
-          c.name.toLowerCase().includes(q) ||
-          c.university.toLowerCase().includes(q)
-      );
+      const rx = new RegExp(search, 'i');
+      query.$or = [{ name: rx }, { university: rx }];
     }
-    return list;
+    const list = await Counselor.find(query).sort({ name: 1 });
+    return list.map(c => c.toJSON());
   },
 
-  /** Return one counselor by id, or null if not found. */
-  getById(id) {
-    return readAll().find(c => String(c.id) === String(id)) || null;
+  async getById(id) {
+    await connectDB();
+    try {
+      const doc = await Counselor.findById(id);
+      return doc ? doc.toJSON() : null;
+    } catch {
+      return null;
+    }
   },
 
-  /** Create a new counselor and persist it. Returns the created record. */
-  create(fields) {
-    const list = readAll();
-    const counselor = {
-      id:         uuidv4(),
+  async create(fields) {
+    await connectDB();
+    const doc = await Counselor.create({
       name:       fields.name.trim(),
-      email:      (fields.email      || '').trim(),
-      phone:      (fields.phone      || '').trim(),
       university: fields.university.trim(),
-      image:      (fields.image      || '').trim(),
-    };
-    list.push(counselor);
-    writeAll(list);
-    return counselor;
+      email:      (fields.email  || '').trim(),
+      phone:      (fields.phone  || '').trim(),
+      image:      (fields.image  || '').trim(),
+    });
+    return doc.toJSON();
   },
 
-  /** Update an existing counselor (partial update). Returns updated record or null. */
-  update(id, fields) {
-    const list = readAll();
-    const idx  = list.findIndex(c => String(c.id) === String(id));
-    if (idx === -1) return null;
-
+  async update(id, fields) {
+    await connectDB();
     const allowed = ['name', 'email', 'phone', 'university', 'image'];
+    const update  = {};
     allowed.forEach(key => {
       if (fields[key] !== undefined) {
-        list[idx][key] = typeof fields[key] === 'string' ? fields[key].trim() : fields[key];
+        update[key] = typeof fields[key] === 'string' ? fields[key].trim() : fields[key];
       }
     });
-
-    writeAll(list);
-    return list[idx];
+    try {
+      const doc = await Counselor.findByIdAndUpdate(id, update, { new: true });
+      return doc ? doc.toJSON() : null;
+    } catch {
+      return null;
+    }
   },
 
-  /** Delete a counselor by id. Returns true if deleted, false if not found. */
-  delete(id) {
-    const list = readAll();
-    const next = list.filter(c => String(c.id) !== String(id));
-    if (next.length === list.length) return false;
-    writeAll(next);
-    return true;
+  async delete(id) {
+    await connectDB();
+    try {
+      const result = await Counselor.findByIdAndDelete(id);
+      return result !== null;
+    } catch {
+      return false;
+    }
   },
 };
 
