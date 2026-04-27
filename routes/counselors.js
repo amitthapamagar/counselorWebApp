@@ -3,8 +3,8 @@
  */
 const express           = require('express');
 const router            = express.Router();
-const store             = require('../../counselor-app-Database/counselor-app-vercel/utils/dataStore');
-const validateCounselor = require('../../counselor-app-Database/counselor-app-vercel/middleware/validateCounselor');
+const store             = require('../../counselorWebApp/utils/dataStore');
+const validateCounselor = require('../../counselorWebApp/middleware/validateCounselor');
 
 // List / search
 router.get('/', async (req, res) => {
