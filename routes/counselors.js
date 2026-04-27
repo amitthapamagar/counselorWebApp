@@ -3,8 +3,8 @@
  */
 const express           = require('express');
 const router            = express.Router();
-const store             = require('../../counselorWebApp/utils/dataStore');
-const validateCounselor = require('../../counselorWebApp/middleware/validateCounselor');
+const store             = require('../utils/dataStore');
+const validateCounselor = require('../middleware/validateCounselor');
 
 // List / search
 router.get('/', async (req, res) => {
