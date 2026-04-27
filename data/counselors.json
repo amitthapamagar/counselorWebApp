@@ -1106,7 +1106,7 @@
   {
     "id": 139,
     "name": "Wendy Norton",
-    "email": "-",
+    "email": "",
     "phone": "+1 580-332-2092",
     "university": "Latta High School",
     "image": ""
@@ -1138,7 +1138,7 @@
   {
     "id": 143,
     "name": "Stephanie Dorton",
-    "email": "-",
+    "email": "",
     "phone": "+1 405-354-8580",
     "university": "Yukon High School",
     "image": ""
@@ -1262,5 +1262,5 @@
     "phone": "+1 405-376-7341",
     "university": "Mustang Public Schools",
     "image": ""
-  },   
+  }
 ]
